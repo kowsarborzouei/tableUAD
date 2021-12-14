@@ -50,8 +50,8 @@ function Table() {
                 </tbody>
             </table>
             <form  action={'https://google.com'}>
-                <input  placeholder={'First Name'} type={'text'} name={'firstName'} value={'user.firstName'}/>
-                <input  placeholder={'Last Name'} type={'text'} name={'lastName'} value={'user.lastName'}/>
+                <input  placeholder={'First Name'} type={'text'} name={'firstName'}/>
+                <input  placeholder={'Last Name'} type={'text'} name={'lastName'} />
                 {/*<button onClick={handleAdd} type={'submit'}>Submit</button>*/}
                 <input type={'submit'} />
             </form>
